@@ -12,7 +12,7 @@ streamlit = "^1.35.0"
 sqlalchemy = "^2.0.30"
 python-dotenv = "^1.0.1"
 yfinance = "^0.2.40"
-psycopg2-binary = "^2.9.9"
+dbt-postgres = "1.7.16"
 
 
 [build-system]
