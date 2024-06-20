@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: dbvendas_1u5c
+    schema: public
+    tables:
+      - name: commodities
+        description: "Commodities table"
+        columns:
+          - name: Date
+            description: "Data da captura da informação"
+          - name: Close
+            description: "Preço de fechamento"
+          - name: simbolo
+            description: "Simbolo da commodity"
+
+      - name: movimentacao_commodities
+        description: "Table with the movement of commodities"
+        columns:
+          - name: date
+            description: "Data da transação"
+          - name: symbol
+            description: "Simbolo da commodity"
+          - name: action
+            description: "Type of action (buy or sell)"
+          - name: quantity
+            description: "Quantity of transactions"

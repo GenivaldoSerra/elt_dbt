@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: dm_commodities
+    description: "Datamart para todos os dados das commodities"
+    columns:
+      - name: data
+        description: "Data da observação"
+      - name: simbolo
+        description: "Símbolo da commodity"
+      - name: valor_fechamento
+        description: "Valor de fechamento da commodity"
+      - name: acao
+        description: "Tipo de transação (compra ou venda)"
+      - name: quantidade
+        description: "Quantidade movimentada"
+      - name: valor
+        description: "Valor da transação"
+      - name: ganho
+        description: "Ganho ou perda na transação"
